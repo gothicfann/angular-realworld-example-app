@@ -7,7 +7,7 @@ pipeline {
     environment {
         PROJECT = "angular-realworld-example-app"
         TARGET_HOST = "app.explorium"
-        DOCKER_REGISTRY = "registry.explorium:5000"
+        DOCKER_REGISTRY = "registry.explorium"
         IMAGE = "${DOCKER_REGISTRY}/${PROJECT}"
     }
     stages {
